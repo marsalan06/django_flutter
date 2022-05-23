@@ -1,0 +1,14 @@
+create project notes and app api.
+add the line api.apps.ApiConfig.
+
+in the api.views we created a function get routes as json response
+
+created url for the view and added it to
+the url of the main project
+
+using django restframework
+python3 -m pip install djangorestframework
+if using restframework we use the decorator api_view in function based while mixins in class based
+and the response will not be jsonresponse but response
+
+
