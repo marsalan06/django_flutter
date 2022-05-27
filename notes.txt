@@ -12,3 +12,19 @@ if using restframework we use the decorator api_view in function based while mix
 and the response will not be jsonresponse but response
 
 
+serializers convert objects to json responses to be passed in 
+rest api, using model serializers, 
+we created a serializer for the Note model,
+
+for the post method we created the method and use json {"key":"value"} for application/json
+
+cors --> cross origin resource sharing--> blocking of request is to be fixed,
+using django-cors-headers, pip install it, python -m pip install django-cors-headers,
+
+flutter and firebase dont have these issues, 'corsheaders' installed_Apps and     'corsheaders.middleware.CorsMiddleware',
+in middleware, we have 3 options, cors_allowed_origins, cors_allowed_origin_regexs, cors_allow_all_origins
+
+
+flutter part, 
+
+
